@@ -27,7 +27,7 @@ df.rename(columns = {'Doc.inven.':'inventory_doc',
                     'Sup':'delete',
                     'Dte cptage':'date_catchment',
                     'Rectifié par':'corrected_by',
-                    'cpt':'catchment',
+                    'Cpt':'catchment',
                     'Réf.inventaire':'refecrence_inventory',
                     'N° inventaire':'inventory_number',
                     'TyS':'Tys'},  inplace = True)
